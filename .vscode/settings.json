@@ -1,0 +1,14 @@
+{
+  "editor.defaultFormatter": "rvest.vs-code-prettier-eslint",
+  "editor.formatOnType": false, // required
+  "editor.formatOnPaste": true, // optional
+  "editor.formatOnSave": true, // optional
+  "editor.formatOnSaveMode": "file", // required to format on save
+  "files.autoSave": "afterDelay", // optional but recommended
+  "vs-code-prettier-eslint.prettierLast": false,
+  "files.autoSaveWhenNoErrors": false,
+  "files.autoSaveWorkspaceFilesOnly": false,
+  "files.autoSaveDelay": 1000,
+  "editor.codeActions.triggerOnFocusChange": false,
+  "notebook.formatOnSave.enabled": true // set as "true" to run 'prettier' last not first
+}
